@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.Background-Img {
+    background: url('./images/pattern-background-desktop.svg') no-repeat center/cover;
+    height: 600px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.content {
+    width: 450px;
+    height: 700px;
+    border-radius: 20px;
+    background-color: white;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.illustration {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 235px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.describeTXT {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 300px;
+    width: 350px;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.pricing {
+    width: 80%;
+    height: 90px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    position: fixed;
+    top: 410px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.priceIcon {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+}
+
+.annual {
+    position: fixed;
+    left: 90px;
+    top: 5px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.price {
+    position: fixed;
+    left: 90px;
+    top: 30px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.change {
+    font-size: 14px;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    position: fixed;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.change:hover {
+    text-decoration: none;
+    opacity: 70%;
+}
+
+.proceed {
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+
+    position: fixed;
+    left: 45px;
+    top: 535px;
+
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+
+    font-size: 16px;
+    font-weight: 700;
+
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 50px 16px rgba(0,0,0,0.15); 
+    box-shadow: 0px 0px 50px 16px rgba(0,0,0,0.15);
+}
+
+.proceed:hover {
+    opacity: 70%;
+}
+
+.cancel-order {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    font-size: 15px;
+
+    position: fixed;
+    left: 50%;
+    bottom: 60px;
+    transform: translateX(-50%);
+}
+
+.cancel-order:hover {
+    color: hsl(223, 47%, 23%);
+}
